@@ -1,6 +1,6 @@
 import { ModalOn, showPopup } from "./modals";
-// import { moreStyles } from "./moreStyles";
-import { moreStylesJson } from "./moreStyles";
+import { moreStyles } from "./moreStyles";
+// import { moreStylesJson } from "./moreStyles";
 import { price } from "./price";
 import { slider } from "./slider";
 import { form } from "./postForm";
@@ -24,14 +24,14 @@ document.addEventListener("DOMContentLoaded", (e) => {
   ModalOn(".fixed-gift", ".popup-gift", ".popup-close");
   showPopup(".popup-consultation", 60000);
 
-  // moreStyles(
-  //   ".button-transparent",
-  //   ".hidden-lg",
-  //   ["hidden-lg", "hidden-md", "hidden-sm", "hidden-xs", "styles-2"],
-  //   ["col-sm-3", "col-sm-offset-0", "col-xs-10", "col-xs-offset-1"]
-  // );
+  moreStyles(
+    ".button-transparent",
+    ".hidden-lg",
+    ["hidden-lg", "hidden-md", "hidden-sm", "hidden-xs", "styles-2"],
+    ["col-sm-3", "col-sm-offset-0", "col-xs-10", "col-xs-offset-1"]
+  );
 
-  moreStylesJson(".button-transparent", "#styles .row");
+  // moreStylesJson(".button-transparent", "#styles .row");
 
   price();
   slider(

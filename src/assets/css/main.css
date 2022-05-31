@@ -48,6 +48,10 @@
 html {
   scroll-behavior: smooth;
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden
+}
 p.accordion-heading.active {
   color: #bb37b2;
   white-space: 20px;

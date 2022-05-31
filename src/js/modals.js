@@ -15,7 +15,7 @@ function ModalOn(trigger, modal, close, scroll = calcScrollWidth()) {
       document.querySelector(modal).classList.add("animated", "fadeInDown");
       document.querySelector(modal).style.display = "block";
       document.body.style.overflow = "hidden";
-      document.body.style.marginRight = `${scroll}px`;
+      // document.body.style.marginRight = `${scroll}px`;
     });
   }
   const btn_closes = document.querySelectorAll(close);
@@ -42,7 +42,7 @@ function showPopup(show_modal, time, scroll = calcScrollWidth()) {
     if (document.body.style.overflow == "")
       document.querySelector(show_modal).style.display = "block";
     document.body.style.overflow = "hidden";
-    document.body.style.marginRight = `${scroll}px`;
+    // document.body.style.marginRight = `${scroll}px`;
   }, time);
 }
 
