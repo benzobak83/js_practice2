@@ -61,33 +61,9 @@ p.accordion-heading.active {
 .col-md-4.col-offset-1, .col-md-10.col-md-offset-1 {
   overflow: hidden;
 }
-.mainslider- {
+.main-slider {
   overflow: hidden;
-  
 }
-@media screen and (max-width: 670px) {
-.main-slider-item img {
-  width: 500px;
-  height: 500px;
- 
-}
-}
-@media screen and (max-width: 470px) {
-  .main-slider-item img {
-    width: 400px;
-    height: 400px;
-    margin-left: -5%;
-  }
-  }
-  @media screen and (max-width: 360px) {
-    .main-slider-item img {
-      width: 300px;
-      height: 300px;
-      margin: 0px auto;
-    }
-    }
-
-
 .portfolio-block {
   animation-duration: 0.4s;
 }
